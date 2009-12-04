@@ -1,1128 +1,0 @@
-TProof
-v7
-r0
-t279521824.709302
-cCheck dependencies
-cProcessInfoPlistFile "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Info.plist" Proof-Info.plist
-cCopyStringsFile "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
-cCompileXIB "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/English.lproj/MainMenu.xib"
-cCpResource build/Debug/Proof.app/Contents/Resources/Gradient.png ../../Leopard/AquaPrompt/Gradient.png
-cCpResource build/Debug/Proof.app/Contents/Resources/WelcomeDocument.txt WelcomeDocument.txt
-cCpResource build/Debug/Proof.app/Contents/Resources/dsa_pub.pem dsa_pub.pem
-cCpResource build/Debug/Proof.app/Contents/Resources/warning.png warning.png
-cProcessPCH /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch.gch Proof_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/main.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofAppDelegate.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSPDFViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSTextViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSProofViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/PreferenceController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSWelcomeViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSErrorViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSIncompatibleViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSIncompatibleViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSLargeFileWarningViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSLargeFileWarningViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSWebViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-cLd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/MacOS/Proof" normal x86_64
-cPBXCp build/Debug/Proof.app/Contents/Frameworks/Sparkle.framework "../../../Resources/Custom Frameworks/Sparkle.framework"
-cTouch "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app"
-
-N/Developer/SDKs/MacOSX10.5.sdk
-c000000004AB266F800000000000000EE
-t1253205752
-s238
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
-c0000000047BB1D140000000000000100
-t1203445012
-s256
-
-N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
-c000000004864C63A0000000000000957
-t1214563898
-s2391
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004AB2671200000000000000EE
-t1253205778
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000040C4AA6800000000000001E5
-t1086630504
-s485
-
-N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
-c000000004A1249D30000000000000124
-t1242712531
-s292
-
-N/System/Library/Frameworks/AppKit.framework/AppKit
-c000000004A9F60230000000002B3D9D0
-t1251958819
-s45341136
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000004A1F2D63000000000000A5E0
-t1243557219
-s42464
-
-N/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004A600BCB0000000000B37450
-t1247808459
-s11760720
-
-N/System/Library/Frameworks/Quartz.framework/Quartz
-c000000004A1249D4000000000000A5F0
-t1242712532
-s42480
-
-N/System/Library/Frameworks/WebKit.framework/WebKit
-c000000004A6E9F7000000000004DFF50
-t1248763760
-s5111632
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks/Sparkle.framework
-c000000004A355F6A00000000000000CC
-t1245011818
-s204
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks/Sparkle.framework/Sparkle
-c000000004A00B0E000000000000713CC
-t1241559264
-s463820
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../Leopard/AquaPrompt/Gradient.png
-c000000004AD15158000000000000049F
-t1255231832
-s1183
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/English.lproj/InfoPlist.strings
-c000000004AE4D25A000000000000002D
-t1256510042
-s45
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/English.lproj/MainMenu.xib
-c000000004AF8C6D10000000000047210
-t1257817809
-s291344
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.h
-c000000004AE739CA0000000000000118
-t1256667594
-s280
-i<Cocoa/Cocoa.h>
-i"NSSProofViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m
-c000000004AE739BA00000000000000E7
-t1256667578
-s231
-i"NSSErrorViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSIncompatibleViewController
-c000000004AE79A920000000000000000
-t1256692370
-s0
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSIncompatibleViewController.h
-c000000004AE79AB20000000000000126
-t1256692402
-s294
-i<Cocoa/Cocoa.h>
-i"NSSProofViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSIncompatibleViewController.m
-c000000004AE79AA400000000000000FC
-t1256692388
-s252
-i"NSSIncompatibleViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSLargeFileWarningViewController.h
-c000000004AEB0AFA000000000000012F
-t1256917754
-s303
-i<Cocoa/Cocoa.h>
-i"NSSProofViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSLargeFileWarningViewController.m
-c000000004AEB0AE10000000000000108
-t1256917729
-s264
-i"NSSLargeFileWarningViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.h
-c000000004AE7302E0000000000000174
-t1256665134
-s372
-i<Cocoa/Cocoa.h>
-i"NSSProofViewController.h"
-i<Quartz/Quartz.h>
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m
-c000000004AF855E40000000000000404
-t1257788900
-s1028
-i"NSSPDFViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.h
-c000000004AF84E3500000000000001F6
-t1257786933
-s502
-i<Cocoa/Cocoa.h>
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m
-c000000004AF8559E00000000000002F7
-t1257788830
-s759
-i"NSSProofViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.h
-c000000004AE78E730000000000000132
-t1256689267
-s306
-i<Cocoa/Cocoa.h>
-i"NSSProofViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m
-c000000004AF855D00000000000000317
-t1257788880
-s791
-i"NSSTextViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.h
-c000000004AF8C76E00000000000001B2
-t1257817966
-s434
-i<Cocoa/Cocoa.h>
-i"NSSProofViewController.h"
-i<WebKit/WebKit.h>
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m
-c000000004AF8F29F00000000000003E3
-t1257829023
-s995
-i"NSSWebViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.h
-c000000004AE767970000000000000181
-t1256679319
-s385
-i<Cocoa/Cocoa.h>
-i"NSSProofViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m
-c000000004AE7684D0000000000000370
-t1256679501
-s880
-i"NSSWelcomeViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFProofView_Prefix.pch
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFViewController.h
-c000000004AE72853000000000000011C
-t1256663123
-s284
-i<Cocoa/Cocoa.h>
-i"ProofViewControllerSuperclass.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFViewController.m
-c000000004AE7222F00000000000000D8
-t1256661551
-s216
-i"PDFViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.h
-c000000004AE792E10000000000000169
-t1256690401
-s361
-i<Cocoa/Cocoa.h>
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m
-c000000004AF876CF0000000000000455
-t1257797327
-s1109
-i"PreferenceController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof-Info.plist
-c000000004AE721AC00000000000003EC
-t1256661420
-s1004
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.h
-c000000004AF8C46900000000000006C6
-t1257817193
-s1734
-i<Cocoa/Cocoa.h>
-i"NSSProofViewController.h"
-i"NSSPDFViewController.h"
-i"NSSTextViewController.h"
-i"NSSWelcomeViewController.h"
-i"NSSErrorViewController.h"
-i"PreferenceController.h"
-i"NSSIncompatibleViewController.h"
-i"NSSLargeFileWarningViewController.h"
-i"NSSWebViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m
-c000000004AF8C62D0000000000001EF9
-t1257817645
-s7929
-i"ProofAppDelegate.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewAppDelegate.m
-c000000004AE7222D0000000000000169
-t1256661549
-s361
-i"ProofAppDelegate.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewControllerSuperclass.h
-c000000004AE72975000000000000014D
-t1256663413
-s333
-i<Cocoa/Cocoa.h>
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewControllerSuperclass.m
-c000000004AE7288B0000000000000115
-t1256663179
-s277
-i"ProofViewControllerSuperclass.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof_Prefix.pch
-c000000004AE72228000000000000008D
-t1256661544
-s141
-i<Cocoa/Cocoa.h>
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/TextViewController.h
-c000000004AE7243B000000000000011E
-t1256662075
-s286
-i<Cocoa/Cocoa.h>
-i"ProofViewControllerSuperclass.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/TextViewController.m
-c000000004AE721BF00000000000000DB
-t1256661439
-s219
-i"TextViewController.h"
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/WelcomeDocument.txt
-c000000004AF8C2D6000000000000048C
-t1257816790
-s1164
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app
-t2
-s0
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app/Contents/Info.plist
-t2
-s0
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app/Contents/MacOS/PDFProofView
-t2
-s0
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app/Contents/Resources/English.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app/Contents/Resources/English.lproj/MainMenu.nib
-t2
-s0
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app/Contents/Resources/Gradient.png
-t2
-s0
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app
-t1257829024
-s102
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Frameworks/Sparkle.framework
-t1257789346
-s204
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Info.plist
-t1257789398
-s967
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/MacOS/Proof
-t1257829024
-s55640
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/PkgInfo
-t1257789398
-s8
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/English.lproj/InfoPlist.strings
-t1256661695
-s92
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/English.lproj/MainMenu.nib
-t1257817820
-s67538
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/Gradient.png
-t1256661695
-s1183
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/NSSIncompatibleViewController
-t2
-s0
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/Proof-Info.plist
-t1256661731
-s1004
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/Sparkle.framework
-t1257789305
-s204
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/WelcomeDocument.txt
-t1257816932
-s1164
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/dsa_pub.pem
-t1257789269
-s1178
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/warning.png
-t1257795401
-s32874
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSErrorViewController.o
-t1257789274
-s5692
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSIncompatibleViewController.o
-t1257789274
-s5740
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSLargeFileWarningViewController.o
-t1257789275
-s5776
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSPDFViewController.o
-t1257789274
-s20596
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSProofViewController.o
-t1257789274
-s19656
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSTextViewController.o
-t1257789274
-s16980
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSWebViewController.o
-t1257829024
-s20008
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSWelcomeViewController.o
-t1257789274
-s20192
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/PDFProofView.LinkFileList
-c00000000000000000000000000000000
-t2
-s0
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/PDFViewController.o
-t1256663414
-s5656
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/PreferenceController.o
-t1257797339
-s14340
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/Proof.LinkFileList
-c000000004AEFABAA00000000000006CA
-t1257221034
-s1738
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofAppDelegate.o
-t1257818123
-s59620
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofViewAppDelegate.o
-t1256661769
-s21136
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofViewControllerSuperclass.o
-t1256663414
-s14320
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/TextViewController.o
-t1256663414
-s5668
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/main.o
-t1257789273
-s5064
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/NSSErrorViewController.plist
-t1256691280
-s275
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/NSSPDFViewController.plist
-t1256691280
-s5646
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/NSSProofViewController.plist
-t1256691280
-s275
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/NSSTextViewController.plist
-t1256691280
-s275
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/NSSWelcomeViewController.plist
-t1256691280
-s12363
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/PreferenceController.plist
-t1256691280
-s4772
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/ProofAppDelegate.plist
-t1256691280
-s275
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/main.plist
-t1256691280
-s275
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/dsa_pub.pem
-c0000000049C02AC4000000000000049A
-t1237330628
-s1178
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m
-c000000004AE7222A00000000000000FC
-t1256661546
-s252
-i<Cocoa/Cocoa.h>
-
-N/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/warning.png
-c000000004AF86651000000000000806A
-t1257793105
-s32874
-
-N/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDFProofView_Prefix-bnpathhcitrqrqgbdgwsndmzelhm/PDFProofView_Prefix.pch.gch
-t2
-s0
-
-N/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch.gch
-t1257789273
-s51192112
-
-N/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch.pth
-t1256691279
-s7463532
-
-N/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fcwdbzjldlkwtfarproeozxyplkh/Proof_Prefix.pch.gch
-t1256691730
-s54224656
-
-N/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fljgchsmwxwneofedrkjjkodssvi/Proof_Prefix.pch.gch
-t1256661769
-s54212368
-
-N/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fnffhtfmbwisfbepvaghuogwicih/Proof_Prefix.pch.gch
-t1257786066
-s51192112
-
-NPDFProofView-Info.plist
-c000000004AE721AC00000000000003EC
-t1256661420
-s1004
-
-NProof-Info.plist
-c000000004AF95A4E0000000000000425
-t1257855566
-s1061
-
-CAnalyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m"
-s278384080.509507
-e278384080.640894
-r1
-xAnalyze
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m
-lSLF07#2@108"Analyze /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m278384080#278384080#0(0"0(0#0#100"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m4300931360#1929"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch --analyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/NSSErrorViewController.plist"0#
-
-CAnalyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m"
-s278384080.188350
-e278384080.385281
-r1
-xAnalyze
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m:17:27: warning: Potential leak of an object allocated on line 17
-o         [PDFMainView setDocument:[[PDFDocument alloc] initWithData:[NSData dataWithContentsOfFile:filename]]];
-o                                  ^
-o1 diagnostic generated.
-lSLF07#2@106"Analyze /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278384080#278384080#0(336"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m:17:27: warning: Potential leak of an object allocated on line 17         [PDFMainView setDocument:[[PDFDocument alloc] initWithData:[NSData dataWithContentsOfFile:filename]]];                                  ^1 diagnostic generated.1(0@48"Potential leak of an object allocated on line 17278384080#18446744073709551615#0#5(17@0"278384080#18446744073709551615#0#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#0#0#0#0#0"0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#0#0#0#0#1(3@6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#15#2#15#2#6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#17#2#17#2#17@0"278384080#18446744073709551615#0#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#0#0#0#0#0"0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#0#0#0#0#1(3@6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#17#2#17#2#6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#17#27#17#101#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)278384080#18446744073709551615#0#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#17#27#0#0#0"1(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#17#27#17#101#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"278384080#18446744073709551615#0#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#0#0#0#0#0"0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#0#0#0#0#1(3@6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#17#27#17#101#6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#19#1#19#1#21@113"Object allocated on line 17 is no longer referenced after this point and has a retain count of +1 (object leaked)278384080#18446744073709551615#0#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#19#1#0#0#0"1(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#19#1#19#1#113"Object allocated on line 17 is no longer referenced after this point and has a retain count of +1 (object leaked)6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m278358092#19#1#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0#0#98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m4300931360#1925"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch --analyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/NSSPDFViewController.plist"0#
-
-CAnalyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m"
-s278384080.357431
-e278384080.476086
-r1
-xAnalyze
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:12:1: warning: incomplete implementation
-o @implementation NSSProofViewController
-o ^
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:12:1: warning: method definition for 'loadFileAtLocation:' not found
-o2 diagnostics generated.
-lSLF07#2@108"Analyze /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m278384080#278384080#0(380"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:12:1: warning: incomplete implementation @implementation NSSProofViewController ^/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:12:1: warning: method definition for 'loadFileAtLocation:' not found2 diagnostics generated.0(0#0#100"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m4300931360#1929"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch --analyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/NSSProofViewController.plist"0#
-
-CAnalyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m"
-s278384080.203601
-e278384080.357331
-r1
-xAnalyze
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m
-lSLF07#2@107"Analyze /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m278384080#278384080#0(0"0(0#0#99"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m4300931360#1927"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch --analyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/NSSTextViewController.plist"0#
-
-CAnalyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m"
-s278384080.476188
-e278384080.627552
-r1
-xAnalyze
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m:16:38: warning: Potential leak of an object allocated on line 16 and stored into 'string'
-o         NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:fileStr];
-o                                             ^
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m:15:23: warning: Potential leak of an object allocated on line 15 and stored into 'fileStr'
-o         NSString *fileStr = [[NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"WelcomeDocument" ofType:@"txt"] encoding:NSUTF8StringEncoding error:NULL] retain];
-o                              ^
-o2 diagnostics generated.
-lSLF07#2@110"Analyze /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278384080#278384080#0(785"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m:16:38: warning: Potential leak of an object allocated on line 16 and stored into 'string'         NSMutableAttributedString *string = [[NSMutableAttributedString alloc] initWithString:fileStr];                                             ^/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m:15:23: warning: Potential leak of an object allocated on line 15 and stored into 'fileStr'         NSString *fileStr = [[NSString stringWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"WelcomeDocument" ofType:@"txt"] encoding:NSUTF8StringEncoding error:NULL] retain];                              ^2 diagnostics generated.2(0@73"Potential leak of an object allocated on line 16 and stored into 'string'278384080#18446744073709551615#0#5(17@0"278384080#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#0"0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#1(3@6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#15#2#15#2#6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#16#2#16#2#17@0"278384080#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#0"0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#1(3@6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#16#2#16#2#6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#16#38#16#95#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)278384080#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#16#38#0#0#0"1(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#16#38#16#95#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"278384080#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#0"0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#1(3@6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#16#38#16#95#6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#18#1#18#1#21@138"Object allocated on line 16 and stored into 'string' is no longer referenced after this point and has a retain count of +1 (object leaked)278384080#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#18#1#0#0#0"1(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#18#1#18#1#138"Object allocated on line 16 and stored into 'string' is no longer referenced after this point and has a retain count of +1 (object leaked)6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#18#1#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0@74"Potential leak of an object allocated on line 15 and stored into 'fileStr'278384080#18446744073709551615#0#6(17@0"278384080#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#0"0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#1(3@6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#15#2#15#2#6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#15#23#15#171#21@82"Method returns an Objective-C object with a +0 retain count (non-owning reference)278384080#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#15#23#0#0#0"1(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#15#23#15#171#82"Method returns an Objective-C object with a +0 retain count (non-owning reference)17@0"278384080#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#0"0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#1(3@6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#15#23#15#171#6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#15#22#15#179#21@65"Reference count incremented. The object now has a +1 retain count278384080#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#15#22#0#0#0"2(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#15#22#15#179#6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#15#23#15#171#65"Reference count incremented. The object now has a +1 retain count17@0"278384080#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#0"0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#0#0#0#0#1(3@6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#15#22#15#179#6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#16#2#16#26#21@139"Object allocated on line 15 and stored into 'fileStr' is no longer referenced after this point and has a retain count of +1 (object leaked)278384080#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#16#2#0#0#0"1(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#16#2#16#26#139"Object allocated on line 15 and stored into 'fileStr' is no longer referenced after this point and has a retain count of +1 (object leaked)6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m278372301#16#2#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0#0#102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m4300931360#1933"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch --analyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/NSSWelcomeViewController.plist"0#
-
-CAnalyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m"
-s278384080.385372
-e278384080.509416
-r1
-xAnalyze
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:18:2:{18:2-18:25}: warning: method '-registerDefaults' not found (return type defaults to 'id')
-o         [self registerDefaults];
-o         ^~~~~~~~~~~~~~~~~~~~~~~
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:41:30: warning: Potential leak of an object allocated on line 41 and stored into 'dict'
-o         NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
-o                                     ^
-o2 diagnostics generated.
-lSLF07#2@106"Analyze /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278384080#278384080#0(586"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:18:2:{18:2-18:25}: warning: method '-registerDefaults' not found (return type defaults to 'id')         [self registerDefaults];         ^~~~~~~~~~~~~~~~~~~~~~~/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:41:30: warning: Potential leak of an object allocated on line 41 and stored into 'dict'         NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];                                     ^2 diagnostics generated.1(0@71"Potential leak of an object allocated on line 41 and stored into 'dict'278384080#18446744073709551615#0#4(17@0"278384080#18446744073709551615#0#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#0#0#0#0#0"0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#0#0#0#0#1(3@6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#41#2#41#2#6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#41#30#41#63#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)278384080#18446744073709551615#0#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#41#30#0#0#0"1(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#41#30#41#63#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"278384080#18446744073709551615#0#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#0#0#0#0#0"0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#0#0#0#0#1(3@6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#41#30#41#63#6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#45#1#45#1#21@136"Object allocated on line 41 and stored into 'dict' is no longer referenced after this point and has a retain count of +1 (object leaked)278384080#18446744073709551615#0#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#45#1#0#0#0"1(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#45#1#45#1#136"Object allocated on line 41 and stored into 'dict' is no longer referenced after this point and has a retain count of +1 (object leaked)6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m278383316#45#1#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0#0#98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m4300931360#1925"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch --analyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/PreferenceController.plist"0#
-
-CAnalyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m"
-s278384080.046442
-e278384080.203469
-r1
-xAnalyze
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:25:2:{25:2-25:21}: warning: method '-loadDocument' not found (return type defaults to 'id')
-o         [self loadDocument];
-o         ^~~~~~~~~~~~~~~~~~~
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:49:2: warning: NSSavePanel  may not respond to 'setCanChooseFiles:'
-o         [panel setCanChooseFiles:NO];
-o         ^
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:50:2: warning: NSSavePanel  may not respond to 'setCanChooseDirectories:'
-o         [panel setCanChooseDirectories:YES];
-o         ^
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:51:2: warning: NSSavePanel  may not respond to 'setAllowsMultipleSelection:'
-o         [panel setAllowsMultipleSelection:NO];
-o         ^
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:66:12:{66:14-66:85}: warning: incompatible pointer types assigning 'NSArray *', expected 'NSMutableArray *'
-o         filenames = [manager contentsOfDirectoryAtPath:[prefs workingDirectory] error:NULL];
-o                   ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:69:3:{69:3-69:22}: warning: method '-loadDocument' not found (return type defaults to 'id')
-o                 [self loadDocument];
-o                 ^~~~~~~~~~~~~~~~~~~
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:75:2:{75:2-75:21}: warning: method '-loadDocument' not found (return type defaults to 'id')
-o         [self loadDocument];
-o         ^~~~~~~~~~~~~~~~~~~
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:80:2:{80:2-80:21}: warning: method '-loadDocument' not found (return type defaults to 'id')
-o         [self loadDocument];
-o         ^~~~~~~~~~~~~~~~~~~
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:132:3:{132:3-132:31}: warning: method '-performLoadIntoViewer' not found (return type defaults to 'id')
-o                 [self performLoadIntoViewer];
-o                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o9 diagnostics generated.
-lSLF07#2@102"Analyze /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m278384080#278384080#0(2377"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:25:2:{25:2-25:21}: warning: method '-loadDocument' not found (return type defaults to 'id')         [self loadDocument];         ^~~~~~~~~~~~~~~~~~~/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:49:2: warning: NSSavePanel  may not respond to 'setCanChooseFiles:'         [panel setCanChooseFiles:NO];         ^/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:50:2: warning: NSSavePanel  may not respond to 'setCanChooseDirectories:'         [panel setCanChooseDirectories:YES];         ^/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:51:2: warning: NSSavePanel  may not respond to 'setAllowsMultipleSelection:'         [panel setAllowsMultipleSelection:NO];         ^/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:66:12:{66:14-66:85}: warning: incompatible pointer types assigning 'NSArray *', expected 'NSMutableArray *'         filenames = [manager contentsOfDirectoryAtPath:[prefs workingDirectory] error:NULL];                   ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:69:3:{69:3-69:22}: warning: method '-loadDocument' not found (return type defaults to 'id')                 [self loadDocument];                 ^~~~~~~~~~~~~~~~~~~/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:75:2:{75:2-75:21}: warning: method '-loadDocument' not found (return type defaults to 'id')         [self loadDocument];         ^~~~~~~~~~~~~~~~~~~/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:80:2:{80:2-80:21}: warning: method '-loadDocument' not found (return type defaults to 'id')         [self loadDocument];         ^~~~~~~~~~~~~~~~~~~/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:132:3:{132:3-132:31}: warning: method '-performLoadIntoViewer' not found (return type defaults to 'id')                 [self performLoadIntoViewer];                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~9 diagnostics generated.0(0#0#94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m4300931360#1917"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch --analyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/ProofAppDelegate.plist"0#
-
-CAnalyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m"
-s278384079.994602
-e278384080.188254
-r1
-xAnalyze
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m
-lSLF07#2@90"Analyze /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m278384079#278384080#0(0"0(0#0#82"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m4300931360#1893"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch --analyze "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/StaticAnalyzer/normal/x86_64/main.plist"0#
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies279521824#279521824#0(0"0(0#1#0"4300882208#0"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSErrorViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279482074.638442
-e279482074.835716
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSErrorViewController.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@108"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m279482074#279482074#0(0"0(0#0#100"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m4300882208#2007"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSErrorViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSErrorViewController.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSIncompatibleViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSIncompatibleViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279482074.686338
-e279482074.851865
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSIncompatibleViewController.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSIncompatibleViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@115"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSIncompatibleViewController.m279482074#279482074#0(0"0(0#0#107"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSIncompatibleViewController.m4300882208#2021"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSIncompatibleViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSIncompatibleViewController.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSLargeFileWarningViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSLargeFileWarningViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279482074.835827
-e279482075.039005
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSLargeFileWarningViewController.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSLargeFileWarningViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@119"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSLargeFileWarningViewController.m279482074#279482075#0(0"0(0#0#111"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSLargeFileWarningViewController.m4300882208#2029"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSLargeFileWarningViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSLargeFileWarningViewController.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSPDFViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279482073.911188
-e279482074.167839
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSPDFViewController.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m: In function '-[NSSPDFViewController viewableTypes]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m:29: warning: passing argument 1 of 'arrayWithObjects:' from incompatible pointer type
-lSLF07#2@106"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m279482073#279482074#0(338"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m: In function '-[NSSPDFViewController viewableTypes]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m:29: warning: passing argument 1 of 'arrayWithObjects:' from incompatible pointer type1(22@72"Passing argument 1 of 'arrayWithObjects:' from incompatible pointer type279482074#153#185#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m279481700#29#0#29#0#56"passing argument * of '*' from incompatible pointer type0(0#0#98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m4300882208#2003"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSPDFViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSPDFViewController.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSProofViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279482074.167942
-e279482074.359652
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSProofViewController.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m: In function '-[NSSProofViewController canDisplayType:]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:30: warning: passing argument 1 of 'UTTypeConformsTo' from incompatible pointer type
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:30: warning: passing argument 2 of 'UTTypeConformsTo' from incompatible pointer type
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m: At top level:
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:38: warning: incomplete implementation of class 'NSSProofViewController'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:38: warning: method definition for '-loadFileAtLocation:' not found
-lSLF07#2@108"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m279482074#279482074#0(990"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m: In function '-[NSSProofViewController canDisplayType:]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:30: warning: passing argument 1 of 'UTTypeConformsTo' from incompatible pointer type/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:30: warning: passing argument 2 of 'UTTypeConformsTo' from incompatible pointer type/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m: At top level:/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:38: warning: incomplete implementation of class 'NSSProofViewController'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m:38: warning: method definition for '-loadFileAtLocation:' not found5(22@71"Passing argument 1 of 'UTTypeConformsTo' from incompatible pointer type279482074#159#186#0(6@100"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m279481630#30#0#30#0#56"passing argument * of '*' from incompatible pointer type0(22@71"Passing argument 2 of 'UTTypeConformsTo' from incompatible pointer type279482074#345#186#0(6@100"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m279481630#30#0#30#0#56"passing argument * of '*' from incompatible pointer type0(23@13"At top level:279482074#531#116#0(6@100"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m279481630#0#0#0#0#0"0(22@59"Incomplete implementation of class 'NSSProofViewController'279482074#647#174#0(6@100"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m279481630#38#0#38#0#38"incomplete implementation of class '*'0(22@54"Method definition for '-loadFileAtLocation:' not found279482074#821#169#0(6@100"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m279481630#38#0#38#0#35"method definition for '*' not found0(0#0#100"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m4300882208#2007"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSProofViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSProofViewController.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSTextViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279482074.133045
-e279482074.340191
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSTextViewController.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m: In function '-[NSSTextViewController viewableTypes]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m:23: warning: passing argument 1 of 'arrayWithObjects:' from incompatible pointer type
-lSLF07#2@107"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m279482074#279482074#0(341"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m: In function '-[NSSTextViewController viewableTypes]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m:23: warning: passing argument 1 of 'arrayWithObjects:' from incompatible pointer type1(22@72"Passing argument 1 of 'arrayWithObjects:' from incompatible pointer type279482074#155#186#0(6@99"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m279481680#23#0#23#0#56"passing argument * of '*' from incompatible pointer type0(0#0#99"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m4300882208#2005"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSTextViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSTextViewController.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSWebViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279521824.008242
-e279521824.659724
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSWebViewController.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m: In function '-[NSSWebViewController viewableTypes]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m:19: warning: passing argument 1 of 'arrayWithObjects:' from incompatible pointer type
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m: In function '-[NSSWebViewController refresh:]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m:24: warning: passing argument 1 of 'UTTypeConformsTo' from incompatible pointer type
-lSLF07#2@106"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m279521824#279521824#0(670"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m: In function '-[NSSWebViewController viewableTypes]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m:19: warning: passing argument 1 of 'arrayWithObjects:' from incompatible pointer type/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m: In function '-[NSSWebViewController refresh:]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m:24: warning: passing argument 1 of 'UTTypeConformsTo' from incompatible pointer type2(22@72"Passing argument 1 of 'arrayWithObjects:' from incompatible pointer type279521824#153#185#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m279521823#19#0#19#0#56"passing argument * of '*' from incompatible pointer type0(22@71"Passing argument 1 of 'UTTypeConformsTo' from incompatible pointer type279521824#486#184#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m279521823#24#0#24#0#56"passing argument * of '*' from incompatible pointer type0(0#0#98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m4300882208#2003"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWebViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSWebViewController.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSWelcomeViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279482074.359760
-e279482074.686233
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSWelcomeViewController.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@110"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m279482074#279482074#0(0"0(0#0#102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m4300882208#2011"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/NSSWelcomeViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/NSSWelcomeViewController.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/PDFViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s278356214.360863
-e278356214.556620
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/PDFViewController.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@103"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFViewController.m278356214#278356214#0(0"0(0#0#95"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFViewController.m4300931360#1865"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fljgchsmwxwneofedrkjjkodssvi/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/PDFViewController.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/PreferenceController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279490138.945056
-e279490139.421836
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/PreferenceController.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m: In function '-[PreferenceController init]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:18: warning: 'PreferenceController' may not respond to '-registerDefaults'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:18: warning: (Messages without a matching method signature
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:18: warning: will be assumed to return 'id' and accept
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:18: warning: '...' as arguments.)
-lSLF07#2@106"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m279490138#279490139#0(763"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m: In function '-[PreferenceController init]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:18: warning: 'PreferenceController' may not respond to '-registerDefaults'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:18: warning: (Messages without a matching method signature/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:18: warning: will be assumed to return 'id' and accept/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m:18: warning: '...' as arguments.)2(22@61"'PreferenceController' may not respond to '-registerDefaults'279490139#144#174#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m279490127#18#0#18#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)279490139#318#158#0(6@98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m279490127#18#0#18#0#0"0(0#0#98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m4300882208#2003"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PreferenceController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/PreferenceController.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofAppDelegate.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279510922.840949
-e279510923.860054
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofAppDelegate.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate chooseFolder:]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:33: warning: 'NSSavePanel' may not respond to '-setCanChooseFiles:'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:33: warning: (Messages without a matching method signature
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:33: warning: will be assumed to return 'id' and accept
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:33: warning: '...' as arguments.)
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:34: warning: 'NSSavePanel' may not respond to '-setCanChooseDirectories:'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:35: warning: 'NSSavePanel' may not respond to '-setAllowsMultipleSelection:'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate reloadFiles:]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:62: warning: 'ProofAppDelegate' may not respond to '-loadDocument'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate viewPrevious:]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:68: warning: 'ProofAppDelegate' may not respond to '-loadDocument'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate viewNext:]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:73: warning: 'ProofAppDelegate' may not respond to '-loadDocument'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate loadDocument]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:179: warning: 'ProofAppDelegate' may not respond to '-performLoadIntoViewer'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate performLoadIntoViewer]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:187: warning: 'ProofAppDelegate' may not respond to '-exists:'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:193: warning: 'ProofAppDelegate' may not respond to '-tryLoad:withViewer:'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate tryLoad:withViewer:]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:202: warning: 'ProofAppDelegate' may not respond to '-UTIForFile:withExtension:'
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate UTIForFile:withExtension:]':
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:215: warning: passing argument 2 of 'FSPathMakeRef' discards qualifiers from pointer target type
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:216: warning: passing argument 1 of 'arrayWithObjects:' from incompatible pointer type
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:216: warning: initialization from incompatible pointer type
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:218: warning: passing argument 3 of 'LSCopyItemAttributes' from incompatible pointer type
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:218: warning: passing argument 4 of 'LSCopyItemAttributes' from incompatible pointer type
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:220: warning: passing argument 1 of 'objectForKey:' from incompatible pointer type
-lSLF07#2@102"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510922#279510923#0(4356"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate chooseFolder:]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:33: warning: 'NSSavePanel' may not respond to '-setCanChooseFiles:'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:33: warning: (Messages without a matching method signature/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:33: warning: will be assumed to return 'id' and accept/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:33: warning: '...' as arguments.)/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:34: warning: 'NSSavePanel' may not respond to '-setCanChooseDirectories:'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:35: warning: 'NSSavePanel' may not respond to '-setAllowsMultipleSelection:'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate reloadFiles:]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:62: warning: 'ProofAppDelegate' may not respond to '-loadDocument'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate viewPrevious:]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:68: warning: 'ProofAppDelegate' may not respond to '-loadDocument'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate viewNext:]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:73: warning: 'ProofAppDelegate' may not respond to '-loadDocument'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate loadDocument]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:179: warning: 'ProofAppDelegate' may not respond to '-performLoadIntoViewer'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate performLoadIntoViewer]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:187: warning: 'ProofAppDelegate' may not respond to '-exists:'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:193: warning: 'ProofAppDelegate' may not respond to '-tryLoad:withViewer:'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate tryLoad:withViewer:]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:202: warning: 'ProofAppDelegate' may not respond to '-UTIForFile:withExtension:'/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m: In function '-[ProofAppDelegate UTIForFile:withExtension:]':/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:215: warning: passing argument 2 of 'FSPathMakeRef' discards qualifiers from pointer target type/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:216: warning: passing argument 1 of 'arrayWithObjects:' from incompatible pointer type/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:216: warning: initialization from incompatible pointer type/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:218: warning: passing argument 3 of 'LSCopyItemAttributes' from incompatible pointer type/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:218: warning: passing argument 4 of 'LSCopyItemAttributes' from incompatible pointer type/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m:220: warning: passing argument 1 of 'objectForKey:' from incompatible pointer type17(22@54"'NSSavePanel' may not respond to '-setCanChooseFiles:'279510923#145#163#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#33#0#33#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)279510923#308#154#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#33#0#33#0#0"0(22@60"'NSSavePanel' may not respond to '-setCanChooseDirectories:'279510923#741#169#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#34#0#34#0#26"'*' may not respond to '*'0(22@63"'NSSavePanel' may not respond to '-setAllowsMultipleSelection:'279510923#910#172#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#35#0#35#0#26"'*' may not respond to '*'0(22@53"'ProofAppDelegate' may not respond to '-loadDocument'279510923#1226#162#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#62#0#62#0#26"'*' may not respond to '*'0(22@53"'ProofAppDelegate' may not respond to '-loadDocument'279510923#1533#162#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#68#0#68#0#26"'*' may not respond to '*'0(22@53"'ProofAppDelegate' may not respond to '-loadDocument'279510923#1836#162#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#73#0#73#0#26"'*' may not respond to '*'0(22@62"'ProofAppDelegate' may not respond to '-performLoadIntoViewer'279510923#2142#172#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#179#0#179#0#26"'*' may not respond to '*'0(22@48"'ProofAppDelegate' may not respond to '-exists:'279510923#2467#158#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#187#0#187#0#26"'*' may not respond to '*'0(22@60"'ProofAppDelegate' may not respond to '-tryLoad:withViewer:'279510923#2625#170#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#193#0#193#0#26"'*' may not respond to '*'0(22@66"'ProofAppDelegate' may not respond to '-UTIForFile:withExtension:'279510923#2946#176#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#202#0#202#0#26"'*' may not respond to '*'0(22@82"Passing argument 2 of 'FSPathMakeRef' discards qualifiers from pointer target type279510923#3279#192#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#215#0#215#0#70"passing argument * of '*' discards qualifiers from pointer target type0(22@72"Passing argument 1 of 'arrayWithObjects:' from incompatible pointer type279510923#3471#182#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#216#0#216#0#56"passing argument * of '*' from incompatible pointer type0(22@45"Initialization from incompatible pointer type279510923#3653#155#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#216#0#216#0#45"initialization from incompatible pointer type0(22@75"Passing argument 3 of 'LSCopyItemAttributes' from incompatible pointer type279510923#3808#185#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#218#0#218#0#56"passing argument * of '*' from incompatible pointer type0(22@75"Passing argument 4 of 'LSCopyItemAttributes' from incompatible pointer type279510923#3993#185#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#218#0#218#0#56"passing argument * of '*' from incompatible pointer type0(22@68"Passing argument 1 of 'objectForKey:' from incompatible pointer type279510923#4178#178#0(6@94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m279510445#220#0#220#0#56"passing argument * of '*' from incompatible pointer type0(0#0#94"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m4300882208#1995"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofAppDelegate.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofAppDelegate.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofViewAppDelegate.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewAppDelegate.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s278354569.735186
-e278354569.914016
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofViewAppDelegate.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@106"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewAppDelegate.m278354569#278354569#0(0"0(0#0#98"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewAppDelegate.m4300931360#1871"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fljgchsmwxwneofedrkjjkodssvi/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewAppDelegate.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofViewAppDelegate.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofViewControllerSuperclass.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewControllerSuperclass.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s278356214.599097
-e278356214.784676
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofViewControllerSuperclass.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewControllerSuperclass.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@115"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewControllerSuperclass.m278356214#278356214#0(0"0(0#0#107"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewControllerSuperclass.m4300931360#1889"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fljgchsmwxwneofedrkjjkodssvi/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/ProofViewControllerSuperclass.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/ProofViewControllerSuperclass.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/TextViewController.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/TextViewController.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s278356214.556733
-e278356214.753812
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/TextViewController.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/TextViewController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@104"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/TextViewController.m278356214#278356214#0(0"0(0#0#96"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/TextViewController.m4300931360#1867"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fljgchsmwxwneofedrkjjkodssvi/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/TextViewController.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/TextViewController.o"0#
-
-CCompileC build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/main.o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m" normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279482073.781388
-e279482073.911088
-r1
-xCompileC
-xbuild/Proof.build/Debug/Proof.build/Objects-normal/x86_64/main.o
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m279482073#279482073#0(0"0(0#0#82"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m4300882208#1971"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -include /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/main.m" -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/main.o"0#
-
-CCompileXIB "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/English.lproj/MainMenu.xib"
-s279510619.750650
-e279510620.625164
-r1
-xCompileXIB
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/English.lproj/MainMenu.xib
-o/* com.apple.ibtool.document.warnings */
-o/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/English.lproj/MainMenu.xib:584: warning: The "Pane Splitter" divider style is not supported on Mac OS X versions prior to 10.6.
-lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib279510619#279510620#0(245"/* com.apple.ibtool.document.warnings *//Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/English.lproj/MainMenu.xib:584: warning: The "Pane Splitter" divider style is not supported on Mac OS X versions prior to 10.6.1(22@86"The "Pane Splitter" divider style is not supported on Mac OS X versions prior to 10.6.279510620#18446744073709551615#0#0(6@102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/English.lproj/MainMenu.xib279510609#584#0#584#0#0"0(0#0#102"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/English.lproj/MainMenu.xib4300882208#442"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/English.lproj/MainMenu.xib"0#
-
-CCopyPlistFile "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/Proof-Info.plist" Proof-Info.plist
-s278354531.443487
-e278354531.497713
-r1
-xCopyPlistFile
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/Proof-Info.plist
-xProof-Info.plist
-lSLF07#2@21"Copy Proof-Info.plist278354531#278354531#0(0"0(0#0#92"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof-Info.plist8097804622479979520#321"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist Proof-Info.plist --outdir "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources"0#
-
-CCopyStringsFile "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
-r0
-
-CCopyStringsFile "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
-s278354495.056271
-e278354495.484611
-r1
-xCopyStringsFile
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/English.lproj/InfoPlist.strings
-xEnglish.lproj/InfoPlist.strings
-lSLF07#2@36"Copy English.lproj/InfoPlist.strings278354495#278354495#0(0"0(0#0#107"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/English.lproj/InfoPlist.strings4300931360#441"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources/English.lproj"0#
-
-CCpResource build/Debug/PDFProofView.app/Contents/Resources/Gradient.png ../../Leopard/AquaPrompt/Gradient.png
-r0
-
-CCpResource build/Debug/Proof.app/Contents/Resources/Gradient.png ../../Leopard/AquaPrompt/Gradient.png
-s278354495.484702
-e278354495.490804
-r1
-xCpResource
-xbuild/Debug/Proof.app/Contents/Resources/Gradient.png
-x../../Leopard/AquaPrompt/Gradient.png
-lSLF07#2@42"Copy ../../Leopard/AquaPrompt/Gradient.png278354495#278354495#0(0"0(0#0#113"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../Leopard/AquaPrompt/Gradient.png4300931360#468"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../Leopard/AquaPrompt/Gradient.png" "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources"0#
-
-CCpResource build/Debug/Proof.app/Contents/Resources/NSSIncompatibleViewController NSSIncompatibleViewController
-r0
-
-CCpResource build/Debug/Proof.app/Contents/Resources/Sparkle.framework "../../../Resources/Custom Frameworks/Sparkle.framework"
-s279482105.162801
-e279482105.283890
-r1
-xCpResource
-xbuild/Debug/Proof.app/Contents/Resources/Sparkle.framework
-x../../../Resources/Custom Frameworks/Sparkle.framework
-lSLF07#2@59"Copy ../../../Resources/Custom Frameworks/Sparkle.framework279482105#279482105#0(0"0(0#0#130"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks/Sparkle.framework4300882208#485"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks/Sparkle.framework" "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources"0#
-
-CCpResource build/Debug/Proof.app/Contents/Resources/WelcomeDocument.txt WelcomeDocument.txt
-s279509732.316361
-e279509732.394422
-r1
-xCpResource
-xbuild/Debug/Proof.app/Contents/Resources/WelcomeDocument.txt
-xWelcomeDocument.txt
-lSLF07#2@24"Copy WelcomeDocument.txt279509732#279509732#0(0"0(0#0#95"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/WelcomeDocument.txt4300882208#450"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/WelcomeDocument.txt" "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources"0#
-
-CCpResource build/Debug/Proof.app/Contents/Resources/dsa_pub.pem dsa_pub.pem
-s279482069.588030
-e279482069.637420
-r1
-xCpResource
-xbuild/Debug/Proof.app/Contents/Resources/dsa_pub.pem
-xdsa_pub.pem
-lSLF07#2@16"Copy dsa_pub.pem279482069#279482069#0(0"0(0#0#87"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/dsa_pub.pem4300882208#442"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/dsa_pub.pem" "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources"0#
-
-CCpResource build/Debug/Proof.app/Contents/Resources/warning.png warning.png
-s279488201.824137
-e279488201.846566
-r1
-xCpResource
-xbuild/Debug/Proof.app/Contents/Resources/warning.png
-xwarning.png
-lSLF07#2@16"Copy warning.png279488201#279488201#0(0"0(0#0#87"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/warning.png4300882208#442"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/warning.png" "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Resources"0#
-
-CLd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app/Contents/MacOS/PDFProofView" normal x86_64
-r0
-
-CLd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/MacOS/Proof" normal x86_64
-s279521824.659828
-e279521824.705672
-r1
-xLd
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/MacOS/Proof
-xnormal
-xx86_64
-lSLF07#2@123"Link /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/MacOS/Proof279521824#279521824#0(0"0(0#0#0"4300882208#939"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk "-L/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" -filelist "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Objects-normal/x86_64/Proof.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework Quartz -framework AppKit -framework Foundation -framework WebKit -framework Sparkle -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/MacOS/Proof"0#
-
-CPBXCp build/Debug/Proof.app/Contents/Frameworks/Sparkle.framework "../../../Resources/Custom Frameworks/Sparkle.framework"
-s279482146.875810
-e279482147.007797
-r1
-xPBXCp
-xbuild/Debug/Proof.app/Contents/Frameworks/Sparkle.framework
-x../../../Resources/Custom Frameworks/Sparkle.framework
-lSLF07#2@59"Copy ../../../Resources/Custom Frameworks/Sparkle.framework279482146#279482147#0(0"0(0#0#130"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks/Sparkle.framework4300882208#486"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks/Sparkle.framework" "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Frameworks"0#
-
-CProcessInfoPlistFile "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app/Contents/Info.plist" PDFProofView-Info.plist
-r0
-
-CProcessInfoPlistFile "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app/Contents/Info.plist" Proof-Info.plist
-r0
-
-CProcessInfoPlistFile "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Info.plist" Proof-Info.plist
-s279482198.684446
-e279482198.688632
-r1
-xProcessInfoPlistFile
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Info.plist
-xProof-Info.plist
-lSLF07#2@24"Process Proof-Info.plist279482198#279482198#0(0"0(0#0#92"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof-Info.plist4300882208#421"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    builtin-infoPlistUtility Proof-Info.plist -genpkginfo "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app/Contents/Info.plist"0#
-
-CProcessPCH /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDFProofView_Prefix-bnpathhcitrqrqgbdgwsndmzelhm/PDFProofView_Prefix.pch.gch PDFProofView_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s278354531.497855
-e278354531.504489
-r0
-xProcessPCH
-x/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDFProofView_Prefix-bnpathhcitrqrqgbdgwsndmzelhm/PDFProofView_Prefix.pch.gch
-xPDFProofView_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-oi686-apple-darwin10-gcc-4.2.1: /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFProofView_Prefix.pch: No such file or directory
-oi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effect
-oi686-apple-darwin10-gcc-4.2.1: no input files
-lSLF07#2@34"Precompile PDFProofView_Prefix.pch278354531#278354531#0(363"i686-apple-darwin10-gcc-4.2.1: /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFProofView_Prefix.pch: No such file or directoryi686-apple-darwin10-gcc-4.2.1: warning: '-x objective-c-header' after last input file has no effecti686-apple-darwin10-gcc-4.2.1: no input filesCommand /Developer/usr/bin/gcc-4.2 failed with exit code 11(4@58"Command /Developer/usr/bin/gcc-4.2 failed with exit code 1278354531#18446744073709551615#0#0(1@0"0(0#0#99"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFProofView_Prefix.pch4300931360#1729"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/PDFProofView_Prefix.pch" -o /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PDFProofView_Prefix-bnpathhcitrqrqgbdgwsndmzelhm/PDFProofView_Prefix.pch.gch1#
-
-CProcessPCH /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch.gch Proof_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279482070.385559
-e279482073.781236
-r1
-xProcessPCH
-x/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch.gch
-xProof_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@27"Precompile Proof_Prefix.pch279482070#279482073#0(0"0(0#0#92"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof_Prefix.pch4300882208#1840"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/../../../Resources/Custom Frameworks" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof_Prefix.pch" -o /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-bvdcuprigzpocyegbhzribocbdcp/Proof_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch.pth Proof_Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s278384075.879112
-e278384079.992813
-r1
-xProcessPCH
-x/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch.pth
-xProof_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@27"Precompile Proof_Prefix.pch278384075#278384079#0(0"0(0#0#92"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof_Prefix.pch4300931360#1744"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof_Prefix.pch" -o /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-dtdbcrefcmcriqbtupeucghrkjbn/Proof_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fcwdbzjldlkwtfarproeozxyplkh/Proof_Prefix.pch.gch Proof_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s278384526.792905
-e278384530.262718
-r1
-xProcessPCH
-x/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fcwdbzjldlkwtfarproeozxyplkh/Proof_Prefix.pch.gch
-xProof_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@27"Precompile Proof_Prefix.pch278384526#278384530#0(0"0(0#0#92"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof_Prefix.pch4300931360#1723"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof_Prefix.pch" -o /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fcwdbzjldlkwtfarproeozxyplkh/Proof_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fljgchsmwxwneofedrkjjkodssvi/Proof_Prefix.pch.gch Proof_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s278354566.143214
-e278354569.733955
-r1
-xProcessPCH
-x/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fljgchsmwxwneofedrkjjkodssvi/Proof_Prefix.pch.gch
-xProof_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@27"Precompile Proof_Prefix.pch278354566#278354569#0(0"0(0#0#92"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof_Prefix.pch4300931360#1708"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof_Prefix.pch" -o /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fljgchsmwxwneofedrkjjkodssvi/Proof_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fnffhtfmbwisfbepvaghuogwicih/Proof_Prefix.pch.gch Proof_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
-s279478863.859328
-e279478866.984544
-r1
-xProcessPCH
-x/var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fnffhtfmbwisfbepvaghuogwicih/Proof_Prefix.pch.gch
-xProof_Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@27"Precompile Proof_Prefix.pch279478863#279478866#0(0"0(0#0#92"/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof_Prefix.pch8237135891347629056#1723"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-generated-files.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-own-target-headers.hmap" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-all-target-headers.hmap" -iquote "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/Proof-project-headers.hmap" "-F/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/include" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources/x86_64" "-I/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Proof.build/Debug/Proof.build/DerivedSources" -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/Proof_Prefix.pch" -o /var/folders/XF/XFUjHCJ7GZ8fh9qHbxGOmU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Proof_Prefix-fnffhtfmbwisfbepvaghuogwicih/Proof_Prefix.pch.gch0#
-
-CTouch "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/PDFProofView.app"
-r0
-
-CTouch "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app"
-s279521824.705882
-e279521824.709252
-r1
-xTouch
-x/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app
-lSLF07#2@103"Touch /Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app279521824#279521824#0(0"0(0#0#0"4300882208#207"    cd "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof"    /usr/bin/touch -c "/Users/Justin/Dropbox/NovaStorm Software/Development/Projects/Leopard/Proof/build/Debug/Proof.app"0#
-

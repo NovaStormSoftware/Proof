@@ -1,9 +1,0 @@
-Proof is a simple application to help you review documents quickly and easily.
-
-Many document exporters, especially PDF and plain-text exporters, don't give you a preview of what the final file will look like.  Proof helps make this less of a problem by providing a way to export these documents to a folder, review them, and then save them to their final destination after you're happy.  Yep.  It's that simple.
-
-To use Proof, first click "Open" in the toolbar and open a folder.  You should have a folder set aside to use for proofing.  We recommend you add this folder to the Finder sidebar for quick access when saving your files to proof.
-
-Next, export the document(s) to your proofing folder from your application.  Click "Reload" in the Proof toolbar.  Proof will immediately load and display the first document.  You can now use the previous/next buttons or the [ and ] keys on the keyboard to navigate through the documents.
-
-If you're satisfied with the documents, click "Accept" and you'll be asked for a location to save the documents.  Just select a folder and the files will be removed from your proofing folder and placed into the folder you select.
